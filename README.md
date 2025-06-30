@@ -89,35 +89,6 @@ DiscountPolicy combinado = new OutubroRosaDiscount(new ConvenioDiscount());
 
 ---
 
-## 🗂️ Organização do Projeto
-
-```
-src/
-├── exam/                  # Tipos de exames
-├── validation/            # Estratégias de validação
-├── report/                # Geradores de laudos (HTML, texto, PDF)
-├── notify/                # Estratégias de notificação (WhatsApp, etc.)
-├── discount/              # Estratégias de desconto
-├── factory/               # Fábricas de criação de objetos
-├── service/               # Classe fachada com fluxo principal
-└── util/                  # Singleton Sequencer e helpers
-```
-
----
-
 ## 🖼️ Diagrama de Classes
 
 ![Diagrama de Classes](Class_Diagram_ST_Diagnosticos.svg)
-
----
-
-## 📥 Repositório
-
-🔗 Repositório GitHub:  
-**https://github.com/gabrielmana6/ST-Diagnosticos**
-
----
-
-## 👨‍🏫 Projeto acadêmico – Disciplina: Padrões de Projeto  
-**Professor:** Alex Sandro C. Rêgo  
-**Curso:** Sistemas para Internet  
